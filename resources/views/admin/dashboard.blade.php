@@ -27,6 +27,7 @@
                                     <tr>
                                         <td class="px-4 py-2">{{ $user->id }}</td>
                                         <td class="px-4 py-2">{{ $user->name }}</td>
+                                        
                                         <td class="px-4 py-2">{{ $user->email }}</td>
                                     </tr>
                                 @endforeach
